@@ -26,3 +26,18 @@ We will be using the choropleth method for our visualization.
 
 Our next step is to create a timeframe of the spread.
 
+This step required adding an actionpane to the figure and setting Data as a variable. Gif could not be inserted to github readme but these are the images from the animated choropleth at work. Images are 2 months apart from another.
+
+![Jan_22_2020](Jan_22_2020.png)
+
+
+![March_22_2020](March_22_2020.png)
+
+
+![May_22_2020](May_22_2020.png)
+
+
+![July_22_2020](July_22_2020.png)
+
+
+## Thank You
