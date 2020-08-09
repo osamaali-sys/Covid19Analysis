@@ -21,4 +21,8 @@ Get a visual analysis of covid 19 using the updated data on a USA map.
 
 We will be using the choropleth method for our visualization.
 
-![](images/map_with_colorbar)
+![](images/map_with_colorbar.png)
+
+
+Our next step is to create a timeframe of the spread.
+
