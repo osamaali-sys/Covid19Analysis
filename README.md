@@ -17,9 +17,11 @@ csv_file = "dataset/covid_19_data.csv"
 
 ### Objective
 
-Get a visual analysis of covid 19 using the updated data on a USA map.
+Get a visual analysis of covid 19 using the updated data on a USA map. 
 
-We will be using the choropleth method for our visualization.
+We will be using the choropleth method for our visualization. This will help us underdanding the spread and pattern of Covid 19 in the USA.
+
+Creating a choropleth map is easy with the plotly libraries.
 
 ![](images/map_with_colorbar.png)
 
