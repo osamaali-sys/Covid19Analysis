@@ -28,12 +28,19 @@ We will be using the choropleth method for our visualization. This will help us 
 Creating a choropleth map is easy with the plotly libraries.
 
 fig = go.Figure(data=go.Choropleth(
+
     locations = df['Country'],
+    
     locationmode = 'country names',
+    
     z = df['Confirmed'],
+    
     colorscale = 'Reds', #you can choose any colorscheme you prefer
+    
     marker_line_color = 'black',
+    
     marker_line_width = 0.5,
+
 ))
 
 
@@ -45,9 +52,13 @@ I used the following parameters for the map.
 
 fig = px.choropleth(df_countrydate, 
                     #scope = ['usa'], #If you want to only focus on USA map
+
                     locations="Country", 
+
                     locationmode = "country names", # use "USA-states" if your data contains states names instead of countries 
+                    
                     color="Confirmed", 
+                    
                     hover_name="Country", #hovering over a country will display its name and confirmed/death cases
 
 Our next step is to create a timeframe of the spread.
@@ -59,16 +70,16 @@ animation_frame="Date" was used to show a time lapse on the choropleth map.
 
 Gif could not be inserted to github readme but these are the images from the animated choropleth at work. Images are 2 months apart from another.
 
-![Jan_22_2020](images/Jan_22_2020.png)
+!["Jan_22_2020"](images/Jan_22_2020.png)
 
 
-![March_22_2020](images/March_22_2020.png)
+!["March_22_2020"](images/March_22_2020.png)
 
 
-![May_22_2020](images/May_22_2020.png)
+!["May_22_2020"](images/May_22_2020.png)
 
 
-![July_22_2020](images/July_22_2020.png)
+!["July_22_2020"](images/July_22_2020.png)
 
 
 ## Thank You
